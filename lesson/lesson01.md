@@ -10,6 +10,7 @@
    
 # 마름표 표현
 * 다음을 출력하는 함수를 기술하시오. (A가 5일때의 결과값이다.)
+
 ![capture](https://raw.githubusercontent.com/tinywind/practice-java/master/lesson/lesson01-2.PNG "comment")
 * 함수의 원형은 다음과 같다.
 ```

@@ -4,7 +4,7 @@
 ```
  int sum(int A, int B)
 ```
-* A와 B의 범위는 Integer.MIN_VALUE 에서 Integer.MAX_VALUE 이다.
+* A와 B의 범위는 Integer.MIN_VALUE 에서 Integer.MAX_VALUE 이다.(limits.h: INT_MIN, INT_MAX)
 * 결과값은 A와 B의 합이다.
 * 만약 결과값이 Integer 의 표현 범위를 벗어나면, -1을 돌려준다.
 * tag: `자료형` `형변환` `조건문`
@@ -31,3 +31,13 @@
 * 배열 A의 각 요소(element)는 0또는 1이다. N은 배열 A의 크기를 나타낸다.
 * 배열 A의 길이는 2에서 100 이다.
 * tag: `배열`
+
+#4. 2진수 출력
+* 입력값 A를 이진수로 출력하시오. (A가 11일때 '1011'을 출력한다.)
+* 함수의 원형은 다음과 같다.
+```
+ void printBinary(int A)
+```
+* A의 범위는 0에서 Integer.MAX_VALUE 이다.(limits.h: INT_MAX)
+* printf, System.out.println 등의 함수에서 지원하는 binary 표현은 사용하지 않는다.
+* tag: `반복문` `조건문` `Bit연산`
